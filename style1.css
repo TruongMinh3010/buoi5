@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #f8f5f7;
+}
+.menu{
+    width: 110px;
+    height: 100vh;
+    background: #e1dee1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    background: #f7daf7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+nav a{
+    text-decoration: none;
+    color: #211c21;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 12px;
+    transition: 0.3s;
+
+}
+nav a:hover, nav .active{
+    background: #c7c5c7;
+
+}
+.icon {
+    font-size: 20px;
+    
+}
+span a{
+    text-decoration:none;
+}
+.noidung{
+    background-color: #ebe7e7;
+    margin-left: 120px;
+    padding: 40px;
+    border-radius: 20px;
+    height: 450px;
+    width: 650px;
+    
+}
+h1{
+    font-size: 48px;
+    color: #333;
+
+}
+p {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+
+}
+.getst{
+    background: #7a44a1;
+    color: white;
+    padding: 30px 50px;
+    border: none;
+    border-radius: 20px;
+    font-size: 30px;
+    cursor:pointer;
+    transition: 0.3s;
+
+}
+.getst:hover{
+    background: #5a2c7a;
+}
+td{
+    text-align: center;
+    font-size: 30px;
+    width: 700px;
+    background-color: aliceblue;
+    border: 3px;
+}
+.b{
+    font-size: xx-large;
+    display: block;
+    color: white;
+    display: flex;
+    padding: 10px;
+}
+.d{
+    background-color: black;
+    display: block;
+    
+}
+.cao{
+  
+    display: block;
+   
+}
+.tr{
+    color: white;
+    font-size: xx-large;
+    align-items: center;
+    text-align: center;
+    
+}
+.c{
+    display: flex;
+    justify-content: space-between;
+}
+.pon:hover{
+    color: bisque;
+}
+#phe:hover{
+    color: aqua;
+}
+a:hover{
+   background-color: rgb(62, 65, 65);
+}
+a{
+    text-decoration: none;
+}
